@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/KirillKulakow/goit-react-hw-01-components/static/css/main.11fbc92b.chunk.css",
+    "main.js": "/KirillKulakow/goit-react-hw-01-components/static/js/main.4275f9ce.chunk.js",
+    "main.js.map": "/KirillKulakow/goit-react-hw-01-components/static/js/main.4275f9ce.chunk.js.map",
+    "runtime-main.js": "/KirillKulakow/goit-react-hw-01-components/static/js/runtime-main.aeebcedc.js",
+    "runtime-main.js.map": "/KirillKulakow/goit-react-hw-01-components/static/js/runtime-main.aeebcedc.js.map",
+    "static/js/2.25eb155f.chunk.js": "/KirillKulakow/goit-react-hw-01-components/static/js/2.25eb155f.chunk.js",
+    "static/js/2.25eb155f.chunk.js.map": "/KirillKulakow/goit-react-hw-01-components/static/js/2.25eb155f.chunk.js.map",
+    "index.html": "/KirillKulakow/goit-react-hw-01-components/index.html",
+    "precache-manifest.c82ae04da08b5745c53ba88109c6740a.js": "/KirillKulakow/goit-react-hw-01-components/precache-manifest.c82ae04da08b5745c53ba88109c6740a.js",
+    "service-worker.js": "/KirillKulakow/goit-react-hw-01-components/service-worker.js",
+    "static/css/main.11fbc92b.chunk.css.map": "/KirillKulakow/goit-react-hw-01-components/static/css/main.11fbc92b.chunk.css.map",
+    "static/js/2.25eb155f.chunk.js.LICENSE.txt": "/KirillKulakow/goit-react-hw-01-components/static/js/2.25eb155f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aeebcedc.js",
+    "static/js/2.25eb155f.chunk.js",
+    "static/css/main.11fbc92b.chunk.css",
+    "static/js/main.4275f9ce.chunk.js"
+  ]
+}
