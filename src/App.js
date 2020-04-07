@@ -1,48 +1,31 @@
 import React from 'react';
-import user from './components/Profile/data-base/data.json';
+import user from './data-base/profile.json';
 import Profile from './components/Profile/Profile';
-import statistics from './components/Statistics/data-base/data.json';
+import statistics from './data-base/stat.json';
 import Statistics from './components/Statistics/Statistics';
-import friendsList from './components/FriendsList/data-base/friends.json';
+import friendsList from './data-base/friends.json';
 import FriendsList from './components/FriendsList/FriendsList';
-import transactions from './components/TransactionsHistory/data-base/transactions.json';
+import transactions from './data-base/transactions.json';
 import TransactionsHistory from './components/TransactionsHistory/TransactionsHistory';
 
 function App() {
     return (
     <>
-        <div className='contain'>
         <Profile 
         name={user.name} 
         tag={user.tag} 
         locate={user.location} 
         src={user.avatar} 
-        stats={user.stats}></Profile>
-        </div>
-        <div className='contain'>
+        stats={user.stats}/>
         <Statistics
-        title={statistics.find(el => {
-            let title = '';
-            if (typeof(el) === "string") {
-                title = el
-            }
-            return title
-        })}
-        stats={statistics.filter(el => 
-            typeof(el) === "object"
-        )}
-        ></Statistics>
-        </div>
-        <div className='contain'>
+        stats={statistics}
+        />
         <FriendsList
         friends={friendsList}
-        ></FriendsList>
-        </div>
-        <div className='contain'>
+        />
         <TransactionsHistory
         transactions={transactions}
-        ></TransactionsHistory>
-        </div>
+        />
     </>
     );
 }

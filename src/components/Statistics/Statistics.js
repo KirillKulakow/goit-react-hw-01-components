@@ -8,23 +8,16 @@ import {
 import StatItem from './StatisticsItem';
 
 const Statistics = (props) => {
-    const isTitle = () => {
-        if (props.title === '') {
-            return false
-        }
-        return true
-    };
-    return <StatSect>
-            {isTitle(props.title) ? 
+    return (<div className='contain'>
+        <StatSect> 
             <StatTitle>{props.title.toUpperCase()}</StatTitle>
-            :
-            null}
             <StatsList>
                 {props.stats.map((el) => {
                     return <StatItem label={el.label} percentage={el.percentage} key={el.id}></StatItem>
                 })}
             </StatsList>
-    </StatSect>
+        </StatSect>
+    </div>)
 };
 
 Statistics.propTypes = {
@@ -37,7 +30,7 @@ Statistics.propTypes = {
 };
 
 Statistics.defaultProps = {
-    title: "",
+    title: "Upload Stats",
 }
 
 export default Statistics;

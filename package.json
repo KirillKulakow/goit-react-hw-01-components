@@ -2,7 +2,7 @@
   "name": "app-hw-01",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/KirillKulakow/goit-react-hw-01-components",
+  "homepage": "https://kirillkulakow.github.io/goit-react-hw-01-components",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
